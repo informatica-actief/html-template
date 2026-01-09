@@ -18,7 +18,7 @@
 	"postCreateCommand": "bash .devcontainer/postCreateCommand.sh",
 
 	// Use 'postStartCommand' to run commands after the container is started.
-	"postStartCommand": "bash .devcontainer/postCreateCommand.sh",
+	"postStartCommand": "bash .devcontainer/postStartCommand.sh",
 	
 	// Configure tool-specific properties.
 	"customizations": {
