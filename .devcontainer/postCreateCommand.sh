@@ -1,9 +1,5 @@
 #!/bin/bash
 
-# Copy index.html to noVNC directory
-SCRIPT_DIR=$(cd "$(dirname "$0")" && pwd)
-sudo cp "$SCRIPT_DIR/index.html" /usr/local/novnc/noVNC-*/index.html # change settings for novnc terminal, wildcard makes it independent of version
-
 # Install Python packages
 pip install pygame-ce
 pip install coderius-play

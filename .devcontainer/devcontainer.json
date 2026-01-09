@@ -1,35 +1,25 @@
 // For format details, see https://aka.ms/devcontainer.json. 
 {
-	"name": "python-gui",
+	"name": "html",
 	// Image to use for the dev container. More info: https://containers.dev/templates
-	"image": "mcr.microsoft.com/devcontainers/python:3.13-trixie",
-	// Features to add to the dev container. More info: https://containers.dev/features.
-	"features": {
-		"ghcr.io/devcontainers/features/desktop-lite:latest": {
-			"version": "latest",
-			"noVncVersion": "1.6.0", 
-			"password": "noPassword",
-			"webPort": "6080",
-			"vncPort": "5901"
-		}
-	},
+	"image": "mcr.microsoft.com/devcontainers/universal:latest",
+	
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	"forwardPorts": [
-		6080,
-		5901
+		8080
 	],
 	"portsAttributes": {
-		"6080": {
-			"label": "GUI",
+		"8080": {
+			"label": "webserver",
 			"onAutoForward": "openPreview"
-		},
-		"5901": {
-			"onAutoForward": "ignore"
 		}
 	},
 	// Use 'postCreateCommand' to run commands after the container is created.
 	"postCreateCommand": "bash .devcontainer/postCreateCommand.sh",
 
+	// Use 'postStartCommand' to run commands after the container is started.
+	"postStartCommand": "bash .devcontainer/postCreateCommand.sh",
+	
 	// Configure tool-specific properties.
 	"customizations": {
 		// Configure properties specific to VS Code.
