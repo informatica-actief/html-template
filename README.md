@@ -1,12 +1,11 @@
-# Python projecten
+# HTML projecten
 Deze repository bevat een configuratie voor de Codespaces ontwikkelomgeving.
 
-Leerlingen kunnen hiermee de Python projecten uit Informatica-Actief maken.
+Leerlingen kunnen hiermee de HTML projecten uit Informatica-Actief maken.
 
 De configuratie ondersteunt:
-- Python met grafische user interface (in de browser via novnc)
-- Standaard met Python meegeleverde packages zoals turtle, tkinter en sqlite
-- De packages PyGame-ce en Coderius-play
+- HTML, CSS en JavaScript
+- Webserver voor statische bestanden
 
 ## Kopieer projectcode
 - De projectcode van je docent staat op een plek waar jij het niet kunt wijzigen.
@@ -28,24 +27,16 @@ Opties voor de docent:
 - Het starten van de Codespace kan enkele minuten duren. Als de Codespace gestart is, dan zie je de webversie van de editor VS Code (spreek uit als: vie-es-koot).
 
 ## Code uitvoeren
-Start het programma:
-- Type in de terminal `python main-turtle.py` of `python main-play.py` en druk dan op de toets `[Enter↵]`
+Bij het starten van de Codespace wordt automatisch een webserver gestart.
 
-Stop het programma:
-- Druk op de toetsen `[Ctrl]`+`[C]` en daarna `[Enter↵]`
+Een browser vraagt het `index.html` bestand op bij de webserver, maakt de inhoud op en laat de opgemaakte inhoud zien.
 
-Start het programma opnieuw:
-- Druk op de toets `[Up↑]` en daarna `[Enter↵]`
-
-## GUI openen
-De GUI opent automatisch in Simple Browser nadat de game is gestart.
-
-Als de GUI niet automatisch opent:
-- Klik op ports, klik bij port 6080 (GUI) op "Open in Browser" (wereldbol) of "Preview in Editor" (rechts van wereldbol)<br>
+Als de browser niet automatisch opent:
+- Klik op ports, klik bij port 8080 (webserver) op "Open in Browser" (wereldbol) of "Preview in Editor" (rechts van wereldbol)<br>
 - Klik met je muis op de GUI om het toetsenbord aan je game te koppelen.
 
 ## Code aanpassen
-- Dubbelklik op een bestand dat eindigt op `.py`. Het bestand wordt geopend in de editor.
+- Dubbelklik op een bestand dat eindigt op `.html`, `.css` of `.js`. Het bestand wordt geopend in de editor.
 
 ## Wijzigingen opslaan in GitHub
 Sla je wijzigingen als volgt op in GitHub:
