@@ -14,6 +14,7 @@
     "github.copilot.enable": { // disable copilot code suggestions in editor, we rather stick to autocomplete and use copilot chat for code snippets
         "*": false
     },
+    "chat.disableAIFeatures": true, // disable all AI features, user can enable it again by clicking copilot icon in user interface 
 
     // display language settings
     // display language defaults to settings in browser or local machine
@@ -28,7 +29,7 @@
     // hide (true) or unhide (false) .* directories and files in the editor
     // edit met [shift]+[control]+[p] preferences: open workspace settings (JSON)
     "files.exclude": {
-        "**/.*": true,
+        "**/.*": false,
         "__pycache__/": true,
     },
 }
