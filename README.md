@@ -13,10 +13,10 @@ De configuratie ondersteunt:
 - Je docent vertelt hoe je dit kunt doen.
 
 Opties voor de docent:
-- Optie 1: Code bij leerling
+- Optie 1: voor incidenteel gebruik (zonder GitHub Classroom)
   - Een leerling drukt op "Use this template"->"Create a new repository" en slaat de projectcode (repository) op onder zijn eigen account.
   - Deze leerling voegt onder Settings van de repository de andere leerling en de docent toe als collaborator.
-- Optie 2: Code bij school
+- Optie 2: voor structureel gebruik (met GitHub Classroom)
   - De docent gebruikt GitHub Classroom om een opdracht aan te maken en deelt een inschrijf-link met leerlingen.
   - Leerlingen gebruiken de inschrijf-link naar GitHub Classroom om een repository voor hun groepje aan te maken. Deze repositories worden geplaatst in een door de docent beheerde GitHub-organisatie.
 
